@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98E6DF88-DBA3-40CA-B3C5-801CC636F8D9}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\windowsformsapp1\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98E6DF88-DBA3-40CA-B3C5-801CC636F8D9}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E6DF88-DBA3-40CA-B3C5-801CC636F8D9}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\laptrinhservice\\mh3tvswcf\\bai2\\windowsformsapp1\\windowsformsapp1\\report.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{98E6DF88-DBA3-40CA-B3C5-801CC636F8D9}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\report.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E6DF88-DBA3-40CA-B3C5-801CC636F8D9}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\windowsformsapp1\\dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{98E6DF88-DBA3-40CA-B3C5-801CC636F8D9}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\dataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98E6DF88-DBA3-40CA-B3C5-801CC636F8D9}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\windowsformsapp1\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{98E6DF88-DBA3-40CA-B3C5-801CC636F8D9}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\WindowsFormsApp1\\Report.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Report.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\WindowsFormsApp1\\Report.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Report.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T11:09:34.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataSet.xsd",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\WindowsFormsApp1\\DataSet.xsd",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\DataSet.xsd",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\WindowsFormsApp1\\DataSet.xsd",
+              "RelativeToolTip": "WindowsFormsApp1\\DataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-02-20T11:12:04.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report.rdlc [Design]",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\WindowsFormsApp1\\Report.rdlc",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Report.rdlc",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\WindowsFormsApp1\\Report.rdlc [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Report.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-02-20T11:10:29.635Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Report.cs [Design]",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\WindowsFormsApp1\\Report.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Report.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WindowsFormsApp1\\WindowsFormsApp1\\Report.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Report.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T11:08:03.73Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

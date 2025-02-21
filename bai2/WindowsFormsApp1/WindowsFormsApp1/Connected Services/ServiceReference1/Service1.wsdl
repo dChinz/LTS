@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:64304/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:64304/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:64304/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DTO" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_Load_Ph_InputMessage">
+    <wsdl:part name="parameters" element="tns:Load_Ph" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Load_Ph_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Load_PhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insert_ph_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insert_ph" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insert_ph_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Insert_phResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Update_ph_InputMessage">
+    <wsdl:part name="parameters" element="tns:Update_ph" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Update_ph_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Update_phResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Delete_ph_InputMessage">
+    <wsdl:part name="parameters" element="tns:Delete_ph" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Delete_ph_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Delete_phResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Load_cv_InputMessage">
+    <wsdl:part name="parameters" element="tns:Load_cv" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Load_cv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Load_cvResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insert_cv_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insert_cv" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insert_cv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Insert_cvResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Update_cv_InputMessage">
+    <wsdl:part name="parameters" element="tns:Update_cv" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Update_cv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Update_cvResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Delete_cv_InputMessage">
+    <wsdl:part name="parameters" element="tns:Delete_cv" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Delete_cv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Delete_cvResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Load_nv_InputMessage">
+    <wsdl:part name="parameters" element="tns:Load_nv" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Load_nv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Load_nvResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insert_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insert" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Update_InputMessage">
+    <wsdl:part name="parameters" element="tns:Update" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Update_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:Delete" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Load_report_InputMessage">
+    <wsdl:part name="parameters" element="tns:Load_report" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Load_report_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Load_reportResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="Load_Ph">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Load_Ph" message="tns:IService1_Load_Ph_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Load_PhResponse" message="tns:IService1_Load_Ph_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_ph">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insert_ph" message="tns:IService1_Insert_ph_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Insert_phResponse" message="tns:IService1_Insert_ph_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_ph">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Update_ph" message="tns:IService1_Update_ph_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Update_phResponse" message="tns:IService1_Update_ph_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ph">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Delete_ph" message="tns:IService1_Delete_ph_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Delete_phResponse" message="tns:IService1_Delete_ph_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Load_cv">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Load_cv" message="tns:IService1_Load_cv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Load_cvResponse" message="tns:IService1_Load_cv_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_cv">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insert_cv" message="tns:IService1_Insert_cv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Insert_cvResponse" message="tns:IService1_Insert_cv_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_cv">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Update_cv" message="tns:IService1_Update_cv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Update_cvResponse" message="tns:IService1_Update_cv_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_cv">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Delete_cv" message="tns:IService1_Delete_cv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Delete_cvResponse" message="tns:IService1_Delete_cv_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Load_nv">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Load_nv" message="tns:IService1_Load_nv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Load_nvResponse" message="tns:IService1_Load_nv_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insert" message="tns:IService1_Insert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertResponse" message="tns:IService1_Insert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Update" message="tns:IService1_Update_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateResponse" message="tns:IService1_Update_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Delete" message="tns:IService1_Delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteResponse" message="tns:IService1_Delete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Load_report">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Load_report" message="tns:IService1_Load_report_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Load_reportResponse" message="tns:IService1_Load_report_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Load_Ph">
+      <soap:operation soapAction="http://tempuri.org/IService1/Load_Ph" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_ph">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insert_ph" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_ph">
+      <soap:operation soapAction="http://tempuri.org/IService1/Update_ph" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ph">
+      <soap:operation soapAction="http://tempuri.org/IService1/Delete_ph" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Load_cv">
+      <soap:operation soapAction="http://tempuri.org/IService1/Load_cv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_cv">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insert_cv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_cv">
+      <soap:operation soapAction="http://tempuri.org/IService1/Update_cv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_cv">
+      <soap:operation soapAction="http://tempuri.org/IService1/Delete_cv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Load_nv">
+      <soap:operation soapAction="http://tempuri.org/IService1/Load_nv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <soap:operation soapAction="http://tempuri.org/IService1/Update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <soap:operation soapAction="http://tempuri.org/IService1/Delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Load_report">
+      <soap:operation soapAction="http://tempuri.org/IService1/Load_report" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:64304/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6831EEC-DDF9-44F6-A16D-8CCEE2B2026A}|DAL\\DAL.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6831EEC-DDF9-44F6-A16D-8CCEE2B2026A}|DAL\\DAL.csproj|solutionrelative:dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C51D65-7E1F-49CB-8EC3-8D5A458BFF16}|DTO\\DTO.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\dto\\phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C51D65-7E1F-49CB-8EC3-8D5A458BFF16}|DTO\\DTO.csproj|solutionrelative:dto\\phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD938FA7-30CF-4826-AF53-53E00384ABE4}|WcfService1\\WcfService1.csproj|d:\\laptrinhservice\\mh3tvswcf\\bai2\\wcfservice1\\wcfservice1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD938FA7-30CF-4826-AF53-53E00384ABE4}|WcfService1\\WcfService1.csproj|solutionrelative:wcfservice1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6831EEC-DDF9-44F6-A16D-8CCEE2B2026A}|DAL\\DAL.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\dal\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6831EEC-DDF9-44F6-A16D-8CCEE2B2026A}|DAL\\DAL.csproj|solutionrelative:dal\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6831EEC-DDF9-44F6-A16D-8CCEE2B2026A}|DAL\\DAL.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\dal\\dal_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6831EEC-DDF9-44F6-A16D-8CCEE2B2026A}|DAL\\DAL.csproj|solutionrelative:dal\\dal_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6831EEC-DDF9-44F6-A16D-8CCEE2B2026A}|DAL\\DAL.csproj|D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\dal\\dal_chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6831EEC-DDF9-44F6-A16D-8CCEE2B2026A}|DAL\\DAL.csproj|solutionrelative:dal\\dal_chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KetNoi.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\DAL\\KetNoi.cs",
+              "RelativeDocumentMoniker": "DAL\\KetNoi.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\DAL\\KetNoi.cs",
+              "RelativeToolTip": "DAL\\KetNoi.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIAwwAwAAACnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T11:07:31.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Phong.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\DTO\\Phong.cs",
+              "RelativeDocumentMoniker": "DTO\\Phong.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\DTO\\Phong.cs",
+              "RelativeToolTip": "DTO\\Phong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:55:02.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\WcfService1\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "WcfService1\\Service1.svc.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\WcfService1\\Service1.svc.cs",
+              "RelativeToolTip": "WcfService1\\Service1.svc.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAywEoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:27:25.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAL_Nhanvien.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\DAL\\DAL_Nhanvien.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Nhanvien.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\DAL\\DAL_Nhanvien.cs",
+              "RelativeToolTip": "DAL\\DAL_Nhanvien.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAmwDcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:26:47.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DAL_Chucvu.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\DAL\\DAL_Chucvu.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Chucvu.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\DAL\\DAL_Chucvu.cs",
+              "RelativeToolTip": "DAL\\DAL_Chucvu.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:11:41.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DAL_Phong.cs",
+              "DocumentMoniker": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\DAL\\DAL_Phong.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Phong.cs",
+              "ToolTip": "D:\\LapTrinhService\\MH3TVSWCF\\bai2\\WcfService1\\DAL\\DAL_Phong.cs",
+              "RelativeToolTip": "DAL\\DAL_Phong.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:01:41.238Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
